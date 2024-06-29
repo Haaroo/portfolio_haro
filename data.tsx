@@ -1,4 +1,23 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
+import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Instagram, Linkedin, Github } from "lucide-react";
+
+export const socialNetworks = [
+    {
+        id: 1,
+        logo: <Instagram size={30} strokeWidth={1} />,
+        src: "https://www.instagram.com/emmanuelharo_/",
+    },
+    {
+        id: 2,
+        logo: <Linkedin size={30} strokeWidth={1} />,
+        src: "https://www.linkedin.com/in/emmanuel-haro-8818631ba/",
+    },
+    {
+        id: 3,
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/Haaroo",
+    },
+];
+
 
 export const dataAboutMe = [
     {
