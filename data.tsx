@@ -24,7 +24,7 @@ export const dataAboutMe = [
         id: 1,
         name: "Experiencia",
         icon: <Briefcase />,
-        description: "+4 años de experiencia",
+        description: "+2 años de experiencia",
     },
     {
         id: 2,
@@ -90,6 +90,18 @@ export const dataSlider = [
         id: 4,
         url: "/slider-4.jpg",
     },
+    {
+        id: 5,
+        url: "/slider-5.jpg",
+    },
+    {
+        id: 6,
+        url: "/slider-6.jpg",
+    },
+    {
+        id: 7,
+        url: "/slider-7.jpg",
+    },   
 ]
 
 export const dataPortfolio = [
@@ -141,7 +153,7 @@ export const dataPortfolio = [
 export const dataExperience = [
     {
         id: 1,
-        title: "Frontend Development  💄",
+        title: "Frontend Development 🚀",
         experience: [
             {
                 name: "HTML",
@@ -177,7 +189,7 @@ export const dataExperience = [
     },
     {
         id: 2,
-        title: "Backend Development  🥷",
+        title: "Backend Development 🔐",
         experience: [
             {
                 name: "Node JS",

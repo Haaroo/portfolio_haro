@@ -40,7 +40,7 @@ const Introduction = () => {
                                     <Mail className="mr-2" /> Contacta conmigo
                                 </Link>
                                 <Link className={buttonVariants({ variant: 'secondary' })}
-                                    href="/cv-tarre.pdf"
+                                    href="/cv-haro.pdf"
                                     target="_blank">
                                     <Paperclip className="mr-2" /> Descargar CV
                                 </Link>
