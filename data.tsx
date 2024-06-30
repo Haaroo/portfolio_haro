@@ -55,15 +55,15 @@ export const itemsNavbar = [
     },
     {
         id: 3,
-        title: "Book",
-        icon: <BookText size={20} />,
-        link: "#services",
+        title: "Target",
+        icon: <CodeSquare size={20} />,
+        link: "#experience",
     },
     {
         id: 4,
-        title: "Target",
-        icon: <CodeSquare size={20} />,
-        link: "#portfolio",
+        title: "Book",
+        icon: <BookText size={20} />,
+        link: "#services",
     },
     {
         id: 5,
@@ -180,11 +180,6 @@ export const dataExperience = [
                 subtitle: "Experimentado",
                 value: 60,
             },
-            {
-                name: "Bootstrap",
-                subtitle: "Basic",
-                value: 50,
-            },
         ],
     },
     {
@@ -192,12 +187,12 @@ export const dataExperience = [
         title: "Backend Development 🔐",
         experience: [
             {
-                name: "Node JS",
-                subtitle: "Experimentado",
-                value: 80,
+                name: "C#",
+                subtitle: "Basic",
+                value: 40,
             },
             {
-                name: "Mongo DB",
+                name: "Postgres DB",
                 subtitle: "Intermedio",
                 value: 75,
             },
@@ -217,9 +212,50 @@ export const dataExperience = [
                 value: 60,
             },
             {
-                name: "Django",
+                name: "Microsoft SSMSE",
+                subtitle: "Intermedio",
+                value: 70,
+            },
+        ],
+    },
+    {
+        id: 3,
+        title: "Technologies and tools ⚙️",
+        experience: [
+            {
+                name: "GitHub",
+                subtitle: "Experimentado",
+                value: 80,
+            },
+            {
+                name: "GitLab",
                 subtitle: "Basic",
                 value: 60,
+            },
+            {
+                name: "NPM",
+                subtitle: "Basic",
+                value: 50,
+            },
+            {
+                name: "PostMan",
+                subtitle: "Intermedio",
+                value: 75,
+            },
+            {
+                name: "Jira",
+                subtitle: "Experimentado",
+                value: 80,
+            },
+            {
+                name: "Figma",
+                subtitle: "Experimentado",
+                value: 90,
+            },
+            {
+                name: "Adobe XD",
+                subtitle: "Intermedio",
+                value: 70,
             },
         ],
     },

@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const AboutMe = () => {
     return (
-        <div className="p-6 md:px-12 md:py-30 max-w-5xl mx-auto" id="about-me">
+        <div className="p-6 md:px-12 md:py-44 max-w-5xl mx-auto" id="about-me">
             <Title title="Sobre mi" subtitle="Conóceme" />
             <div className="grid md:grid-cols-2">
                 <div className="py-12 md:py-0 flex items-center justify-center">

@@ -5,6 +5,7 @@ import Image from "next/image";
 import AboutMe from "@/components/about-me";
 import Experience from "@/components/experience";
 import Services from "@/components/services";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutMe/>
       <Experience/>
       <Services/>
+      <Footer/>
     </main>
   );
 }
