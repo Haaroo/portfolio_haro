@@ -21,15 +21,15 @@ const AboutMe = () => {
                         orientation="vertical"
                         className="w-full max-w-xs h-fit"
                     >
-                        <CarouselContent className="-mt-1 h-[300px]">
+                        <CarouselContent className="-mt-1 h-[400px]">
                             {dataSlider.map((data) => (
                                 <CarouselItem key={data.id}>
-                                    <div className="flex items-center justify-center">
+                                    <div className="flex items-center justify-center object-contain">
                                         <Image
                                             src={data.url}
                                             alt="Image"
-                                            width={250} height={400}
-                                            className="w-full h-auto rounded-lg" />
+                                            width={150} height={300}
+                                            className="w-full h-auto rounded-lg object-contain" />
                                     </div>
                                 </CarouselItem>
                             ))}

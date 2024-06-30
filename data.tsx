@@ -1,4 +1,4 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Instagram, Linkedin, Github } from "lucide-react";
+import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Instagram, Linkedin, Github,ShieldCheck } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -28,15 +28,15 @@ export const dataAboutMe = [
     },
     {
         id: 2,
-        name: "Clientes",
+        name: "Pruebas",
         icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
+        description: "+50 pruebas de usabilidad",
     },
     {
         id: 3,
-        name: "Proyectos",
+        name: "Test case",
         icon: <Wrench />,
-        description: "+50 completados",
+        description: "+100 completados",
     },
 ];
 
@@ -239,16 +239,7 @@ export const dataServices = [
                 name: "Diseño y desarrollo responsive",
             },
             {
-                name: "Optimización SEO",
-            },
-            {
                 name: "Desarrollo de aplicaciones web",
-            },
-            {
-                name: "Gestión de contenido",
-            },
-            {
-                name: "Comercio electrónico",
             },
             {
                 name: "Mantenimiento y soporte continuo",
@@ -257,37 +248,6 @@ export const dataServices = [
     },
     {
         id: 2,
-        title: "Creación de contenido",
-        icon: <BellPlus />,
-        features: [
-            {
-                name: "Redacción de contenido original y de calidad",
-            },
-            {
-                name: "Creación de vídeos atractivos y dinámicos",
-            },
-            {
-                name: "Diseño gráfico para una imagen impactante",
-            },
-            {
-                name: "Edición profesional de textos y materiales visuales",
-            },
-            {
-                name: "Estrategias de marketing de contenidos efectivas",
-            },
-            {
-                name: "Producción de podcasts informativos y entretenidos",
-            },
-            {
-                name: "Generación de infografías claras y visualmente atractivas",
-            },
-            {
-                name: "Fotografía profesional para capturar momentos excepcionales",
-            },
-        ],
-    },
-    {
-        id: 3,
         title: "UI/UX Design",
         icon: <Brush />,
         features: [
@@ -301,13 +261,44 @@ export const dataServices = [
                 name: "Investigación de usuarios para comprender necesidades y expectativas",
             },
             {
-                name: "Optimización de la usabilidad para mejorar la accesibilidad",
+                name: "Automatización y Mejora de Procesos",
             },
             {
                 name: "Pruebas de usabilidad para evaluar la experiencia",
             },
             {
                 name: "Diseño responsive para adaptarse a diferentes dispositivos",
+            },
+        ],
+    },
+    {
+        id: 3,
+        title: "Manual tester QA",
+        icon: <ShieldCheck />,
+        features: [
+            {
+                name: "Análisis exhaustivo de puntos de servicio",
+            },
+            {
+                name: "Diseño de casos de prueba específicos",
+            },
+            {
+                name: "Informe detallado de hallazgos y recomendaciones",
+            },
+            {
+                name: "Validación de cumplimiento de estándares",
+            },
+            {
+                name: "Validación de la usabilidad y experiencia del usuario",
+            },
+            {
+                name: "Pruebas de integración de sistemas",
+            },
+            {
+                name: "Pruebas de seguridad y privacidad",
+            },
+            {
+                name: "Monitoreo y análisis de feedback de usuarios",
             },
         ],
     },
