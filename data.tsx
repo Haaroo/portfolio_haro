@@ -345,67 +345,22 @@ export const dataContact = [
     {
         id: 1,
         title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
+        subtitle: "+52 5650177129",
+        link: "tel:+525650177129",
         icon: <Phone />,
     },
     {
         id: 2,
         title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
+        subtitle: "github.com/Haaroo",
+        link: "https://github.com/Haaroo",
         icon: <Code2 />,
     },
     {
         id: 3,
         title: "Email",
-        subtitle: "email@email.com",
+        subtitle: "emmanuelharo04@email.com",
         link: "mailto:test@test.com",
         icon: <Inbox />,
-    },
-];
-
-export const dataTestimonials = [
-    {
-        id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile-1.jpeg",
-    },
-    {
-        id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile-2.jpeg",
-    },
-    {
-        id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile-3.jpeg",
-    },
-    {
-        id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile-3.jpeg",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile-2.jpeg",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile-3.jpeg",
     },
 ];

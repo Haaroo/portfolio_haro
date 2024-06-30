@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 const Services = () => {
     return (
         <div className="p-6 md:px-12 md:py-24 max-w-5xl mx-auto" id="services">
-            <Title title="Servicios" subtitle="Que ofrezco" />
+            <Title title="Competencias" subtitle="Ofrecidas" />
 
             <div className="grid md:grid-cols-3 gap-5 mt-7">
                 {dataServices.map((service) => (

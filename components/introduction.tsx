@@ -19,7 +19,7 @@ const Introduction = () => {
                                 sequence={[
                                     "Desarrollo Front-end",
                                     2000,
-                                    "Desarrollo de diseño UX/UI",
+                                    "Diseño UX/UI",
                                     2000,
                                     "Manual Tester QA",
                                     2000
