@@ -24,11 +24,11 @@ const Introduction = () => {
                                     "Manual Tester QA",
                                     2000
                                 ]}
-                                wrapper='span'
-                                speed={30}
-                                repeat={Infinity}
-                                className="Font-bold text-secondary"
-                                />
+                                    wrapper='span'
+                                    speed={30}
+                                    repeat={Infinity}
+                                    className="Font-bold text-cyan-700"
+                                    />
                         </h1>
                         <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
                             Me apasiona combinar creatividad y precisión técnica para crear interfaces atractivas y asegurar experiencias de usuario fluidas y 

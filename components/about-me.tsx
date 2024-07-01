@@ -55,9 +55,6 @@ const AboutMe = () => {
                         software y mejorando continuamente la experiencia del usuario. Mi enfoque integrado entre desarrollo, diseño y calidad me 
                         permite ofrecer soluciones completas y eficientes en el ciclo de vida de desarrollo de aplicaciones.
                         </p>
-                    <Button>
-                        <Phone size={20} className="mr-2" />Hablamos
-                    </Button>
                 </div>
             </div>
         </div>
