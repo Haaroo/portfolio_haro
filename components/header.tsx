@@ -12,7 +12,7 @@ const Header = () => {
                 <header>
                     <div className="container justify-between max-w-6xl mx-auto md:flex">
                         <Link href="/">
-                            <Image src="/haro5.png" priority width="100" height="100" alt="Avatar" className="iteams-center justify-center md:flex mx-auto cursor-pointer px-3 py-2 transition-all duration:300"/> <br/>
+                            <Image src="/logo1.png" priority width="100" height="100" alt="Avatar" className="iteams-center justify-center md:flex mx-auto cursor-pointer px-3 py-2 transition-all duration:300"/> <br/>
                         </Link>
                         <div className="text-secondary flex iteams-center md:flex justify-center gap-10 py-2">
                             {socialNetworks.map(({logo,src,id}) => (
