@@ -1,19 +1,19 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Instagram, Linkedin, Github,ShieldCheck } from "lucide-react";
+import { BellPlus, BookText, Briefcase, Brush, Code2,BriefcaseBusiness ,CodeSquare, Home,Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Instagram, Linkedin, Github,ShieldCheck } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Instagram size={30} strokeWidth={1} />,
+        logo: <Instagram size={35} strokeWidth={0.5} />,
         src: "https://www.instagram.com/emmanuelharo_/",
     },
     {
         id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
+        logo: <Linkedin size={35} strokeWidth={0.5} />,
         src: "https://www.linkedin.com/in/emmanuel-haro-8818631ba/",
     },
     {
         id: 3,
-        logo: <Github size={30} strokeWidth={1} />,
+        logo: <Github size={35} strokeWidth={0.5} />,
         src: "https://github.com/Haaroo",
     },
 ];
@@ -55,18 +55,24 @@ export const itemsNavbar = [
     },
     {
         id: 3,
+        title: "Trabajos",
+        icon: <BriefcaseBusiness size={20} />,
+        link: "#portfolio",
+    },
+    {
+        id: 4,
         title: "Experiencia",
         icon: <CodeSquare size={20} />,
         link: "#experience",
     },
     {
-        id: 4,
+        id: 5,
         title: "Servicios",
         icon: <BookText size={20} />,
         link: "#services",
     },
     {
-        id: 5,
+        id: 6,
         title: "Contacto",
         icon: <Mail size={20} />,
         link: "#contact",
