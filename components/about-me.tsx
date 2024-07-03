@@ -11,9 +11,10 @@ const AboutMe = () => {
     return (
         <div className="p-6 md:px-12 md:py-44 max-w-5xl mx-auto" id="about-me">
             <Title title="Sobre mi" subtitle="Conóceme" />
-            <div className="grid md:grid-cols-2">
+            <div className="grid md:grid-cols-1">
                 <div className="py-12 md:py-0 flex items-center justify-center">
                     {/* CAROUSEL */}
+                    {/* 
                     <Carousel
                         opts={{
                             align: "start"
@@ -28,7 +29,7 @@ const AboutMe = () => {
                                         <Image
                                             src={data.url}
                                             alt="Image"
-                                            width={150} height={300}
+                                            width={250} height={300}
                                             className="w-full h-auto rounded-lg object-contain" />
                                     </div>
                                 </CarouselItem>
@@ -37,6 +38,7 @@ const AboutMe = () => {
                         <CarouselPrevious />
                         <CarouselNext />
                     </Carousel>
+                    */}
                 </div>
                 <div className="iteams-center text-center">
                     <div className="grid md:grid-cols-3 mt-7 gap-4 text-center">

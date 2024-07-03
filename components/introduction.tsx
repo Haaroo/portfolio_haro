@@ -27,16 +27,15 @@ const Introduction = () => {
                                     wrapper='span'
                                     speed={30}
                                     repeat={Infinity}
-                                    className="Font-bold text-cyan-700"
+                                    className="Font-bold text-transparent bg-clip-text bg-gradient-to-r to-cyan-400 from-indigo-600"
                                     />
                         </h1>
                         <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
-                            Me apasiona combinar creatividad y precisión técnica para crear interfaces atractivas y asegurar experiencias de usuario fluidas y 
-                            sin problemas en cada producto digital que desarrollo.
+                            Soy Emmanuel Haro, ingeniero en computación con especialización en desarrollo front-end. Además, cuento con certificación en diseño UX/UI y poseo sólidos conocimientos en pruebas manuales y QA
                         </p>
                         <div className="flex items-center">
                             <div className="flex flex-col md:flex-row gap-4 justify-between mt-10 mx-auto">
-                                <Link className={buttonVariants()} href="#contact">
+                                <Link className= {buttonVariants()} href="#contact">
                                     <Mail className="mr-2" /> Contacta conmigo
                                 </Link>
                                 <Link className={buttonVariants({ variant: 'secondary' })}

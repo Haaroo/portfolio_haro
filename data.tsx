@@ -43,31 +43,31 @@ export const dataAboutMe = [
 export const itemsNavbar = [
     {
         id: 1,
-        title: "Home",
+        title: "Inicio",
         icon: <Home size={20} />,
         link: "#home",
     },
     {
         id: 2,
-        title: "User",
+        title: "Sobre mi",
         icon: <UserRound size={20} />,
         link: "#about-me",
     },
     {
         id: 3,
-        title: "Target",
+        title: "Experiencia",
         icon: <CodeSquare size={20} />,
         link: "#experience",
     },
     {
         id: 4,
-        title: "Book",
+        title: "Servicios",
         icon: <BookText size={20} />,
         link: "#services",
     },
     {
         id: 5,
-        title: "Home",
+        title: "Contacto",
         icon: <Mail size={20} />,
         link: "#contact",
     },

@@ -10,7 +10,7 @@ const Services = () => {
             <div className="grid md:grid-cols-3 gap-5 mt-7">
                 {dataServices.map((service) => (
                     <div key={service.id}
-                        className="rounded-xl border-slate-400 border-2 p-6 dark:bg-slate-800 h-fit"
+                        className="p-6 rounded-xl border border-white-10 h-fit"
                     >
                         <h4 className="mb-4 text-xl flex gap-2">
                             {service.icon}

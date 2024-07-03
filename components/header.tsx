@@ -10,14 +10,14 @@ const Header = () => {
                 <header>
                     <div className="container justify-between max-w-6xl mx-auto md:flex">
                         <Link href="/">
-                            <Image src="/haro5.png" priority width="100" height="100" alt="Avatar" className="iteams-center justify-center md:flex mx-auto hover:text-cyan-600 cursor-pointer px-3 py-2 transition-all duration:300"/> <br/>
+                            <Image src="/haro5.png" priority width="100" height="100" alt="Avatar" className="iteams-center justify-center md:flex mx-auto cursor-pointer px-3 py-2 transition-all duration:300"/> <br/>
                         </Link>
                         <div className="text-secondary flex iteams-center justify-center gap-7">
                             {socialNetworks.map(({logo,src,id}) => (
                                 <Link key={id}
                                 href={src}
                                 target="_white"
-                                className="transition-all duration:300 text-green-600 hover:text-cyan-600">
+                                className="transition-all duration:300 text-secondary">
                                 {logo}
                                 </Link>
                             ))}                    
