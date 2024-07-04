@@ -9,12 +9,10 @@ import Image from "next/image";
 
 const AboutMe = () => {
     return (
-        <div className="p-6 md:px-12 md:py-30 max-w-5xl mx-auto" id="about-me">
-            <Title title="Sobre mi" subtitle="Conóceme" />
-            <div className="grid md:grid-cols-1">
+        <div className="p-6 md:px-12 md:py-40 max-w-5xl mx-auto" id="about-me">
+            <Title title="Sobre mi" subtitle="Conóceme" icono="👤"/>
+            <div className="grid md:grid-cols-2">
                 <div className="py-12 md:py-0 flex items-center justify-center">
-                    {/* CAROUSEL */}
-                    {/* 
                     <Carousel
                         opts={{
                             align: "start"
@@ -38,7 +36,6 @@ const AboutMe = () => {
                         <CarouselPrevious />
                         <CarouselNext />
                     </Carousel>
-                    */}
                 </div>
                 <div className="iteams-center text-center">
                     <div className="grid md:grid-cols-3 mt-7 gap-4 text-center">

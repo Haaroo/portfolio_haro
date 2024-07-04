@@ -12,19 +12,19 @@ const Header = () => {
                 <header>
                     <div className="container justify-between max-w-6xl mx-auto md:flex">
                         <Link href="/">
-                            <Image src="/logo1.png" priority width="100" height="100" alt="Avatar" className="iteams-center justify-center md:flex mx-auto cursor-pointer px-3 py-2 transition-all duration:300"/> <br/>
+                            <p className="text-3xl Font-bold text-blue-700 text-center">Emmanuel Haro</p>
                         </Link>
                         <div className="text-secondary flex iteams-center md:flex justify-center gap-10 py-2">
                             {socialNetworks.map(({logo,src,id}) => (
                                 <Link key={id}
                                 href={src}
                                 target="_white"
-                                className="transition-all duration:300 text-secondary hover:text=primary">
+                                className="transition-all duration:300 text-primary hover:text-black dark:text-primary dark:hover:text-white">
                                 {logo}
                                 </Link>
                             ))}
                             <div>
-                                    <ToggleTheme/>   
+                                <ToggleTheme/>   
                             </div>               
                         </div>
                     </div> 

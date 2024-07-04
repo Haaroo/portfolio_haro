@@ -3,17 +3,17 @@ import { BellPlus, BookText, Briefcase, Brush, Code2,BriefcaseBusiness ,CodeSqua
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Instagram size={35} strokeWidth={0.5} />,
+        logo: <Instagram size={35} strokeWidth={1} />,
         src: "https://www.instagram.com/emmanuelharo_/",
     },
     {
         id: 2,
-        logo: <Linkedin size={35} strokeWidth={0.5} />,
+        logo: <Linkedin size={35} strokeWidth={1} />,
         src: "https://www.linkedin.com/in/emmanuel-haro-8818631ba/",
     },
     {
         id: 3,
-        logo: <Github size={35} strokeWidth={0.5} />,
+        logo: <Github size={35} strokeWidth={1} />,
         src: "https://github.com/Haaroo",
     },
 ];
@@ -82,7 +82,7 @@ export const itemsNavbar = [
 export const dataSlider = [
     {
         id: 1,
-        url: "/slider-1.jpg",
+        url: "/avatar.png",
     },
     {
         id: 2,
@@ -113,44 +113,23 @@ export const dataSlider = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "ERP - Biblioteca",
         image: "/image-1.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/Haaroo/CloudBook_modular",
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Api - Soccer",
         image: "/image-2.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/Haaroo/Api_soccer",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "Trivia - Ing de software",
         image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Navegando Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/Haaroo/TriviaSoftware",
         urlDemo: "#!",
     },
 ];
@@ -168,7 +147,7 @@ export const dataExperience = [
             },
             {
                 name: "CSS",
-                subtitle: "Intermedio",
+                subtitle: "Experimentado",
                 value: 75,
             },
             {
@@ -179,7 +158,7 @@ export const dataExperience = [
             {
                 name: "Tailwind CSS",
                 subtitle: "Experimentado",
-                value: 30,
+                value: 70,
             },
             {
                 name: "React",
@@ -200,26 +179,26 @@ export const dataExperience = [
             {
                 name: "Postgres DB",
                 subtitle: "Intermedio",
-                value: 75,
+                value: 50,
             },
             {
                 name: "Python",
                 subtitle: "Basic",
-                value: 60,
+                value: 40,
             },
             {
                 name: "MySQL",
                 subtitle: "Experimentado",
-                value: 60,
+                value: 70,
             },
             {
                 name: "PHP",
-                subtitle: "Experimentado",
-                value: 60,
+                subtitle: "Basic",
+                value: 40,
             },
             {
                 name: "Microsoft SSMSE",
-                subtitle: "Intermedio",
+                subtitle: "Experimentado",
                 value: 70,
             },
         ],

@@ -5,8 +5,8 @@ import ContactForm from "./contact-form";
 
 const Contact = () => {
     return (
-        <div className="p-6 md:px-12 md:py-44 max-w-5xl mx-auto text-center" id="contact">
-            <Title title="Contacta conmigo" subtitle="Pongamonos en contacto 🫶" />
+        <div className="p-6 md:px-12 md:py-40 max-w-5xl mx-auto text-center" id="contact">
+            <Title title="Contacta conmigo" subtitle="Pongamonos en contacto " icono="📬" />
 
             <div className="grid grid-cols-1 md:grid-cols-3 md:gap-7 mt-8">
                 <div>
