@@ -10,7 +10,8 @@ const Experience = () => {
 
             <div className="grid md:grid-cols-2 gap-8 mt-5">
                 {dataExperience.map((data) => (
-                    <div key={data.id} className="p-6 rounded-xl border border-white-10">
+                    <div key={data.id} className="p-6 border border-white-10 
+                        rounded-xl shadow-md shadow-slate-100 dark:bg-slate-800 text-center">
                         <h3 className="text-center text-xl">{data.title}</h3>
                         <div className="grid md:grid-cols-2 gap-4">
                             {data.experience.map((item) => (

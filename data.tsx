@@ -1,4 +1,6 @@
 import { BellPlus, BookText, Briefcase, Brush, Code2,BriefcaseBusiness ,CodeSquare, Home,Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Instagram, Linkedin, Github,ShieldCheck } from "lucide-react";
+import { DiJavascript1,DiCss3,DiReact } from "react-icons/di";
+
 
 export const socialNetworks = [
     {
@@ -94,20 +96,8 @@ export const dataSlider = [
     },
     {
         id: 4,
-        url: "/slider-4.jpg",
-    },
-    {
-        id: 5,
-        url: "/slider-5.jpg",
-    },
-    {
-        id: 6,
         url: "/slider-6.jpg",
-    },
-    {
-        id: 7,
-        url: "/slider-7.jpg",
-    },   
+    },  
 ]
 
 export const dataPortfolio = [
@@ -115,6 +105,9 @@ export const dataPortfolio = [
         id: 1,
         title: "ERP - Biblioteca",
         image: "/image-1.jpg",
+        devIcon1: <DiReact size={35} strokeWidth={0.5} /> ,
+        devIcon2: <DiJavascript1 size={35} strokeWidth={0.5} /> ,
+        devIcon3: <DiCss3 size={35} strokeWidth={0.5} /> ,
         urlGithub: "https://github.com/Haaroo/CloudBook_modular",
         urlDemo: "#!",
     },
@@ -122,6 +115,9 @@ export const dataPortfolio = [
         id: 2,
         title: "Api - Soccer",
         image: "/image-2.jpg",
+        devIcon1: <DiReact size={35} strokeWidth={0.5} />,
+        devIcon2: <DiJavascript1 size={35} strokeWidth={0.5} /> ,
+        devIcon3: <DiCss3 size={35} strokeWidth={0.5} /> ,
         urlGithub: "https://github.com/Haaroo/Api_soccer",
         urlDemo: "#!",
     },
@@ -129,6 +125,9 @@ export const dataPortfolio = [
         id: 3,
         title: "Trivia - Ing de software",
         image: "/image-3.jpg",
+        devIcon1: <DiReact size={35} strokeWidth={0.5} />,
+        devIcon2: <DiJavascript1 size={35} strokeWidth={0.5} /> ,
+        devIcon3: <DiCss3 size={35} strokeWidth={0.5} /> ,
         urlGithub: "https://github.com/Haaroo/TriviaSoftware",
         urlDemo: "#!",
     },

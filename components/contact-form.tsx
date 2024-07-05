@@ -41,7 +41,7 @@ const ContactForm = () => {
     return (
         <Form {...form}>
             {sucessForm ? (
-                <h4>Formulario se ha enviado con éxito 👽</h4>
+                <h4>Formulario se ha enviado con éxito 👽, me contactare contigo lo mas pronto posible 🐘</h4>
             ) : (
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
                     <FormField
@@ -53,7 +53,8 @@ const ContactForm = () => {
                                     <Input
                                         placeholder="Tu nombre"
                                         {...field}
-                                        className="dark:bg-slate-800"
+                                        className="border border-white-10 
+                        rounded-xl p-4 shadow-md shadow-slate-100 dark:bg-slate-800 dark:bg-slate-800"
                                     />
                                 </FormControl>
                                 <FormMessage />
@@ -69,7 +70,8 @@ const ContactForm = () => {
                                     <Input
                                         placeholder="Tu correo electronico"
                                         {...field}
-                                        className="dark:bg-slate-800"
+                                        className="border border-white-10 
+                        rounded-xl p-4 shadow-md shadow-slate-100 dark:bg-slate-800 dark:bg-slate-800"
                                     />
                                 </FormControl>
                                 <FormMessage />
@@ -85,7 +87,8 @@ const ContactForm = () => {
                                     <Textarea
                                         placeholder="Escribe tu mensaje..."
                                         {...field}
-                                        className="dark:bg-slate-800"
+                                        className="border border-white-10 
+                        rounded-xl p-4 shadow-md shadow-slate-100 dark:bg-slate-800 dark:bg-slate-800"
                                     />
                                 </FormControl>
                                 <FormMessage />
