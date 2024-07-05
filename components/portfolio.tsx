@@ -18,7 +18,13 @@ const Portfolio = () => {
                             alt="Image"
                             width={300} height={300} className="rounded-2xl w-full py-3"
                         />
-                        <h3 className="flex justify-center items-center space-x-4 sm:space-x-8 text-blue-600 hover:text-blue-600 transform hover:scale-110 transition duration-300 dark:hover:text-slate-50 dark:text-slate-50">{data.devIcon1}{data.devIcon2}{data.devIcon3}</h3>
+                        <h3 className="flex justify-center items-center space-x-4 sm:space-x-8 text-blue-600 hover:text-blue-600 transform hover:scale-110 transition duration-300 dark:hover:text-slate-50 dark:text-slate-50">
+                            {data.iconosDev.map((iconosDev, index) => (
+                                <li key={index} className="flex gap-3 mb-3">
+                                    {iconosDev.devIcon}
+                                </li>
+                            ))}
+                        </h3>
                         <div className="mt-5 flex gap-5 justify-center py-2">
                             <Link
                                 className={buttonVariants()}

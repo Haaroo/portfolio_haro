@@ -1,6 +1,9 @@
 import { BellPlus, BookText, Briefcase, Brush, Code2,BriefcaseBusiness ,CodeSquare, Home,Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Instagram, Linkedin, Github,ShieldCheck } from "lucide-react";
-import { DiJavascript1,DiCss3,DiReact } from "react-icons/di";
-
+import HtmlI from "./components/ui/icon-html";
+import ReactI from "./components/ui/icon-react";
+import TailwindCSS from "./components/ui/icon-tailwind";
+import CssI from "./components/ui/icon-css";
+import JavaScriptI from "./components/ui/icon-javaS";
 
 export const socialNetworks = [
     {
@@ -96,7 +99,7 @@ export const dataSlider = [
     },
     {
         id: 4,
-        url: "/slider-6.jpg",
+        url: "/slider-4.jpg",
     },  
 ]
 
@@ -105,9 +108,18 @@ export const dataPortfolio = [
         id: 1,
         title: "ERP - Biblioteca",
         image: "/image-1.jpg",
-        devIcon1: <DiReact size={35} strokeWidth={0.5} /> ,
-        devIcon2: <DiJavascript1 size={35} strokeWidth={0.5} /> ,
-        devIcon3: <DiCss3 size={35} strokeWidth={0.5} /> ,
+        iconosDev: 
+        [
+            {
+                devIcon: <HtmlI />,
+            },
+            {
+                devIcon: <CssI />,
+            },
+            {
+                devIcon: <JavaScriptI />,
+            },
+        ],
         urlGithub: "https://github.com/Haaroo/CloudBook_modular",
         urlDemo: "#!",
     },
@@ -115,19 +127,35 @@ export const dataPortfolio = [
         id: 2,
         title: "Api - Soccer",
         image: "/image-2.jpg",
-        devIcon1: <DiReact size={35} strokeWidth={0.5} />,
-        devIcon2: <DiJavascript1 size={35} strokeWidth={0.5} /> ,
-        devIcon3: <DiCss3 size={35} strokeWidth={0.5} /> ,
+        iconosDev: [
+            {
+                devIcon: <ReactI />,
+            },
+            {
+                devIcon: <JavaScriptI />,
+            },
+            {
+                devIcon: <CssI />,  
+            },
+        ],
         urlGithub: "https://github.com/Haaroo/Api_soccer",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Trivia - Ing de software",
+        title: "Trivia",
         image: "/image-3.jpg",
-        devIcon1: <DiReact size={35} strokeWidth={0.5} />,
-        devIcon2: <DiJavascript1 size={35} strokeWidth={0.5} /> ,
-        devIcon3: <DiCss3 size={35} strokeWidth={0.5} /> ,
+        iconosDev: [
+            {
+                devIcon: <HtmlI />,
+            },
+            {
+                devIcon: <CssI />,
+            },
+            {
+                devIcon: <JavaScriptI />,
+            },
+        ],
         urlGithub: "https://github.com/Haaroo/TriviaSoftware",
         urlDemo: "#!",
     },
@@ -147,22 +175,22 @@ export const dataExperience = [
             {
                 name: "CSS",
                 subtitle: "Experimentado",
-                value: 75,
+                value: 85,
             },
             {
                 name: "JavaScript",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 60,
             },
             {
                 name: "Tailwind CSS",
                 subtitle: "Experimentado",
-                value: 70,
+                value: 80,
             },
             {
                 name: "React",
                 subtitle: "Experimentado",
-                value: 60,
+                value: 80,
             },
         ],
     },
@@ -214,17 +242,17 @@ export const dataExperience = [
             {
                 name: "GitLab",
                 subtitle: "Basic",
-                value: 60,
+                value: 40,
             },
             {
                 name: "NPM",
                 subtitle: "Basic",
-                value: 50,
+                value: 40,
             },
             {
                 name: "PostMan",
                 subtitle: "Intermedio",
-                value: 75,
+                value: 70,
             },
             {
                 name: "Jira",
@@ -234,7 +262,7 @@ export const dataExperience = [
             {
                 name: "Figma",
                 subtitle: "Experimentado",
-                value: 90,
+                value: 85,
             },
             {
                 name: "Adobe XD",

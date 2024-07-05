@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const lora = Lora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Haro",
+  title: "Haro Portfolio",
   description: "Portafolio de Haro",
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={lora.className}>
         <ThemeProvider attribute="class"
-            defaultTheme="dark"
+            defaultTheme="Dark"
             enableSystem
             disableTransitionOnChange>
           {children}
