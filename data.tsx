@@ -107,7 +107,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "ERP - Biblioteca",
-        image: "/image-1.jpg",
+        image: "/image-1.png",
         iconosDev: 
         [
             {
@@ -126,7 +126,7 @@ export const dataPortfolio = [
     {
         id: 2,
         title: "Api - Soccer",
-        image: "/image-2.jpg",
+        image: "/image-2.png",
         iconosDev: [
             {
                 devIcon: <ReactI />,
@@ -144,7 +144,7 @@ export const dataPortfolio = [
     {
         id: 3,
         title: "Trivia",
-        image: "/image-3.jpg",
+        image: "/image-3.png",
         iconosDev: [
             {
                 devIcon: <HtmlI />,

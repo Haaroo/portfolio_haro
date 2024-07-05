@@ -13,7 +13,7 @@ const Navbar = () => {
                     <TooltipProvider>
                         <Tooltip>
                             <TooltipTrigger>
-                                <div className="cursor-pointer hover:dark-bg-slate-800 hover:bg-slate-400 px-3 py-2 rounded-full transition duration-150">
+                                <div className="cursor-pointer hover:dark-bg-slate-800 hover:bg-slate-400 px-3 py-2 rounded-full transition duration-150 mt-2">
                                     <Link href={item.link}>
                                         {item.icon} 
                                     </Link> 

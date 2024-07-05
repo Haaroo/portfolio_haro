@@ -12,7 +12,7 @@ const Introduction = () => {
         <ContainerPage>
                 <div className="z-20 grid items-center h-full p-6 py-40 md:py-0 items-center">
                     <div className="flex flex-col justify-center max-w-md mx-auto items-center h-sreen text-center m-4 p-4">
-                        <h1 className="mb-5 text-2xl leading-tight md:text-center md:text-4xl md:mb-10 mx-auto">
+                        <h1 className="mb-5 text-2xl leading-tight md:text-center md:text-3xl md:mb-10 mx-auto">
                         <br/>
                             Tengo experiencia diversa en: <br/>
                             <TypeAnimation

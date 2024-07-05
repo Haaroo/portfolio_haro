@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Lora } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const lora = Lora({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Haro Portfolio",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={lora.className}>
+      <body className={montserrat.className}>
         <ThemeProvider attribute="class"
             defaultTheme="Dark"
             enableSystem
